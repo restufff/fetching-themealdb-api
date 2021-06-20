@@ -20,4 +20,4 @@ npm run build
 
 ## Live Preview
 
-[(https://cariresep.netlify.app/)]
+[Cari Resep](https://cariresep.netlify.app/)
