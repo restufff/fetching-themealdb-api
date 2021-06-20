@@ -4,8 +4,8 @@
   "description": "Lapar? cari resep disini",
   "main": "script.js",
   "scripts": {
-    "dev": "webpack-dev-server --config webpack.dev.js --open",
-    "start": "webpack --config webpack.prod.js"
+    "start": "webpack-dev-server --config webpack.dev.js --open",
+    "build": "webpack --config webpack.prod.js"
   },
   "author": "rf",
   "license": "ISC",
