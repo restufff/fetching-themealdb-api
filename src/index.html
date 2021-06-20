@@ -1,37 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../node_modules/@fortawesome/fontawesome-free/css/all.css">
-    <link rel="stylesheet" href="styles/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/style.css" />
     <title>À la carte</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <header>
-        <app-bar></app-bar>
+      <app-bar></app-bar>
     </header>
     <div class="container">
-        <h2>À la carte</h2>
-        <div class="flex">
-            <form class="flex" id="submit">
-                <input type="text" id="search" placeholder="Hungry? Let's make one">
-                <button class="search-btn" type="submit">
-                    <i class="fas fa-search"></i>
-                </button>
-            </form>
-            <button class="random-btn" id="random">
-                <i class="fas fa-random"></i>
-            </button>
-        </div>
-        <div id="result-heading"></div>
-        <div id="meals" class="meals"></div>
-        <div id="single-meal"></div>
+      <h2>À la carte</h2>
+      <div class="flex">
+        <form class="flex" id="submit">
+          <input type="text" id="search" placeholder="Hungry? Let's make one" />
+          <button class="search-btn" type="submit">Search</button>
+        </form>
+        <button class="random-btn" id="random">Random</button>
+      </div>
+      <div id="result-heading"></div>
+      <div id="meals" class="meals"></div>
+      <div id="single-meal"></div>
     </div>
-    <script src="../node_modules/sweetalert2/dist/sweetalert2.all.js"></script>
-
-</body>
-
+  </body>
 </html>

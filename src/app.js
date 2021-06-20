@@ -1,13 +1,14 @@
 import "./styles/style.css";
 import "./component/app-bar.js";
+import Swal from "sweetalert2";
 
 const search = document.getElementById("search"),
-      submit = document.getElementById("submit"),
-      random = document.getElementById("random"),
-      mealsEl = document.getElementById("meals"),
-      resultheading = document.getElementById("result-heading"),
-      single_mealEl = document.getElementById("single-meal"),
-      baseUrl = "https://www.themealdb.com/api/json/v1/1";
+  submit = document.getElementById("submit"),
+  random = document.getElementById("random"),
+  mealsEl = document.getElementById("meals"),
+  resultheading = document.getElementById("result-heading"),
+  single_mealEl = document.getElementById("single-meal"),
+  baseUrl = "https://www.themealdb.com/api/json/v1/1";
 
 // Search meal and fetch from API
 function searchMeal(e) {
